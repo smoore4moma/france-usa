@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>France-USA</title>
+
+    <style>
+        :root {
+            --gold: #d4af37;
+            --text: #333333;
+            --bg: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--bg);
+            font-family: Georgia, "Times New Roman", serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--text);
+        }
+
+        .container {
+            max-width: 1200px;
+            padding: 40px 20px;
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+
+        .tagline {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 15px;
+            letter-spacing: 0.04em;
+        }
+
+        .coming-soon {
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin-bottom: 25px;
+            font-weight: normal;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            color: #777;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .coming-soon {
+                font-size: 1.8rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .message {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img
+            src="france-usa.png"
+            alt="France-USA"
+            class="logo">
+    </div>
+
+</body>
+</html>
